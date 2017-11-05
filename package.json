@@ -1,0 +1,29 @@
+{
+  "name": "react-app-rewire-polished",
+  "version": "1.0.0",
+  "description": "Add babel-plugin-polished to a create-react-app app via react-app-rewired.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawrmonstar/react-app-rewire-polished.git"
+  },
+  "keywords": [
+    "babel-plugin-polished",
+    "create-react-app",
+    "polished",
+    "react-app-rewired",
+    "react-app-rewire-polished"
+  ],
+  "author": "Tegan Churchill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawrmonstar/react-app-rewire-polished/issues"
+  },
+  "homepage": "https://github.com/rawrmonstar/react-app-rewire-polished#readme",
+  "dependencies": {
+    "babel-plugin-polished": "^1.1.0"
+  }
+}

@@ -12,3 +12,29 @@ or
 ```sh
 npm install --save-dev  react-app-rewire-polished
 ```
+
+## Usage
+
+```js
+// config-overrides.js
+const rewirePolished = require('react-app-rewire-polished');
+
+module.exports = function override (config, env) {
+  config = rewirePolished(config, env);
+  // other rewires...
+  return config;
+}
+```
+
+or
+
+```js
+// config-overrides.js
+const { compose } = require('react-app-required')
+const rewirePolished = require('react-app-rewire-polished');
+
+module.exports = compose(
+  rewirePolished,
+  // other rewires...
+);
+```
